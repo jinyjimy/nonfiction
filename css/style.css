@@ -13,10 +13,8 @@ body {color:#113a0e}
 .logo {width: 50%;}
 .login,.shopping {padding-top: 10px;}
 .login {padding-right: 30px;}
-.nav-bar {z-index: 1; background-color:rgba(0,0,0,0.7); width: 100%; position: relative;
-border-radius: 5px;}
-.nav-item {z-index: 2; text-align: center; color:#fff;}
-
+.nav-item {z-index: 1; text-align: center;}
+.navbar-collapse {width: 100%;z-index: 2;}
 
 
 /*컨텐츠1*/
@@ -82,7 +80,7 @@ border-radius: 5px;}
 #content3 h3 {font-size: 15px; padding-bottom: 50px;}
 .content3slide {display:block; width: 50%; margin:0 auto}
 /*컨텐츠4*/
-#content4 {height: 450px; padding-top: 100px;}
+#content4 {height: 500px; padding-top: 100px;}
 #content4 h3 {font-size: 15px;padding-bottom: 10px;padding-top: 10px;}
 #content4 .r-box {width: 50%;}
 #content4 p {font-size: 12px;}
