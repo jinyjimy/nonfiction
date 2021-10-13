@@ -13,6 +13,8 @@ body {color:#113a0e}
 .logo {width: 50%;}
 .login,.shopping {padding-top: 10px;}
 .login {padding-right: 30px;}
+.nav-item {z-index: 10;}
+
 
 /*컨텐츠1*/
 #content1>.container {padding: 100px 0;}
