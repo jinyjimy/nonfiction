@@ -4,10 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="shortcut icon" href="images/logo.png">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"-->
     <link rel="stylesheet" href="css/style.css ">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>NONFICTION</title>
   </head>
   <body>
@@ -16,10 +17,10 @@
     <div class="wrap">
        <header id="header">
           <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top"><img src="images/logo.png" alt="logo" class="logo"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="container px-lg-5 m-m-0 m-p-0">
+                <a class="navbar-brand mo-m-l" href="#page-top"><img src="images/logo.png" alt="logo" class="logo"></a>
+                <button class="navbar-toggler navbar-toggler-right mo-m-r" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse mo-bg" id="navbarResponsive">
                     <ul class="navbar-nav my-2 my-lg-0 float-end nav-e">
                         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -62,7 +63,7 @@
         </div>   
        </div>
 
-     <div id="content1">
+     <div id="content1" class="padding_rl">
        <div class="container  clearfix">
       <div class="iconbox">
         <div class="icon"><img src="images/icon1.png" alt="icon1"><p>Hand Cream</p></div>
@@ -79,7 +80,7 @@
 
       </div>
     </div>
-<div id="content2">
+<div id="content2" class="padding_rl">
   <div class="container">
   <div class="l-box">
     <h3>NONFICTION STORE</h3>
@@ -106,7 +107,7 @@
   <div class="r-box"><img src="images/store.jpg" alt="storeimg" class="store"></div>
 </div></div>
 
-  <div id="content3">
+  <div id="content3" class="padding_rl">
     <div class="container ">
     <h3>BEST SELLER</h3>
       <div class="cont-box">
@@ -119,7 +120,7 @@
 </div></div>
 
 <!--이미지 슬라이드/ 767보다 작은화면일때만 나타남 -->
-<div id="carouselExampleSlidesOnly" class="carousel slide content3slide" data-bs-ride="carousel">
+<div id="carouselExampleSlidesOnly" class="carousel slide content3slide padding_rl" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
        <img src="images/best1.jpg" alt="best1" class="w-100" onmouseover="this.src='images/best1-h.jpg'"  onmouseout="this.src='images/best1.jpg'" alt="...">
@@ -141,7 +142,7 @@
     
 <div id="content4">
   <div class="container">
-  <div class="l-box">
+  <div class="l-box padding_rl">
     <h3>Your New Ritual</h3>
     <p>우리는 넘쳐나는 이미지와 타인의 목소리, <br>
       소셜미디어가 쏟아내는 어지러운 잣대와 평가에 잠식된 시대를 살아가고 있습니다. <br>
@@ -162,12 +163,13 @@ A kind of archive, <br>
 Nonfiction is a new body product line that speaks to the naked truth. Discover yourself again.<br>
     </p>
   </div>
-  <div class="r-box">
+  <div class="r-box padding_rl">
     <img src="images/image.jpg" alt="컨텐츠4이미지">
   </div>
 </div>
 </div>
-<footer id="footer">
+
+<footer id="footer" class="padding_rl">
 <div class="container">
  <div class="clearfix"> <p class="footerlist">
     <span>GIFT</span><br>
@@ -205,5 +207,6 @@ Kakao<br>
     마케팅/PR 문의 : press@nonfiction.kr/ 개인정보보호책임자 : 차혜영</p></div>
 </div>
 </footer>
+ </div>
   </body>
 </html>
